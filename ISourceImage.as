@@ -1,0 +1,1 @@
+﻿package {		import flash.display.BitmapData;		public interface ISourceImage {				function getImages(rows:int, columns:int, width:int = 0, height:int = 0):Vector.<BitmapData>;		function cleanUp():void;		function destroy():void;			}	}

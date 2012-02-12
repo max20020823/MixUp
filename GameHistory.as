@@ -1,0 +1,1 @@
+﻿package {		public class GameHistory {				public var won:Boolean;		public var time:int;		public var formattedTime:String;		public var movesMade:int;				public function GameHistory(won:Boolean, time:int, movesMade:int) {			this.won = won;			this.time = time;			this.movesMade = movesMade;		}			}	}
